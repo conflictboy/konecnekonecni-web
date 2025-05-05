@@ -1,0 +1,75 @@
+%top-decoration {
+  position: fixed;
+  top: 0;
+  display: block;
+  z-index: 0;
+}
+
+.top-right-decoration {
+  @extend %top-decoration;
+  right: 0;
+  transform: scaleX(-1);
+}
+
+.top-left-decoration {
+  @extend %top-decoration;
+  left: 0;
+}
+
+@media (min-width: 1350px) {
+  .top-left-decoration,
+  .top-right-decoration {
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .top-left-decoration,
+  .top-right-decoration {
+    max-width: 20%;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1200px) {
+  .top-left-decoration,
+  .top-right-decoration {
+    max-width: 11%;
+  }
+}
+
+@media (max-width: 960px) {
+  .top-left-decoration {
+    max-width: 30%;
+  }
+  .top-right-decoration {
+    display: none;
+  }
+}
+
+.background-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.background-center img {
+  width: 400px;
+  opacity: 0.4;
+}
+
+.uk-margin-xxlarge-top {
+  margin-top: $margin-xxlarge-margin !important;
+}
+
+.uk-navbar-nav a {
+  &:active, &.uk-active {
+    text-decoration: underline;
+  }
+}
+
+.uk-input, .uk-textarea {
+  font-family: $default-font-family !important;
+}

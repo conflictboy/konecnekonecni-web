@@ -1,0 +1,15 @@
+{
+  "title": "Napište nám vzkaz",
+  "firstname": "Jméno",
+  "firstnameRequired": "Jméno je povinná položka",
+  "lastname": "Příjmení",
+  "lastnameRequired": "Příjmení je povinná položka",
+  "email": "E-mail",
+  "emailFormat": "E-mail nemá správný formát",
+  "emailRequired": "E-mail je povinná položka",
+  "text": "Vzkaz",
+  "textRequired": "Vzkaz je povinná položka",
+  "textMinLength": "Vzkaz musí mít alespoň {count} znaky",
+  "submitSuccess": "Formulář byl úspěšně odeslán.",
+  "submit": "Odeslat"
+}
