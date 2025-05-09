@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+> 🧑‍🤝‍🧑 This project is part of a two-repository setup:
+> - [Frontend (Next.js)](https://github.com/conflictboy/konecnekonecni-web)
+> - [Backend (Laravel API)](https://github.com/conflictboy/konecnekonecni-api)
 
 ## Getting Started
 
