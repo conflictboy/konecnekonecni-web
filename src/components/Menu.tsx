@@ -47,6 +47,8 @@ export default function Menu() {
                     <div className="uk-navbar-right">
                         <Link href="#"
                               rel="nofollow"
+                              title="Menu"
+                              aria-label="Menu"
                               className="uk-hidden@m"
                               data-uk-icon="icon:menu; ratio: 2;"
                               data-uk-toggle=".offcanvas-mobile-menu"

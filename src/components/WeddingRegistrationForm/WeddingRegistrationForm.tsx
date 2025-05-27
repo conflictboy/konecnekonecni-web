@@ -89,6 +89,7 @@ export default function WeddingRegistrationForm() {
                                         <div className="uk-form-controls">
                                             <Field
                                                 type="text"
+                                                id="firstname"
                                                 name="firstname"
                                                 className="uk-input"
                                                 autoComplete="given-name"
@@ -106,6 +107,7 @@ export default function WeddingRegistrationForm() {
                                         <div className="uk-form-controls">
                                             <Field
                                                 type="text"
+                                                id="lastname"
                                                 name="lastname"
                                                 className="uk-input"
                                                 autoComplete="family-name"
