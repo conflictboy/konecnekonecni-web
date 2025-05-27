@@ -11,10 +11,6 @@ export const metadata: Metadata = {
 
 export default function AdditionalInformationPage() {
     return (
-        <div className="uk-text-center">
-            info o tom, že je oběd pouze rodinný<br />
-            info kde parkovat<br />
-            tel. kontakt na svědky
-        </div>
+        <div className="uk-margin-large-top uk-text-center" dangerouslySetInnerHTML={{__html: t(additionalInformation, 'text')}}></div>
     )
 }
