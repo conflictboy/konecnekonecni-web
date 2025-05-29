@@ -1,4 +1,20 @@
 {
   "title": "Harmonogram",
-  "imageDescription": "Harmonogram"
+  "imageDescription": "Harmonogram",
+  "ceremony.title": "Obřad",
+  "ceremony.time": "12:30",
+  "family_lunch.title": "Rodinný oběd",
+  "family_lunch.time": "13:30",
+  "friends_arrival.title": "Příchod kamarádů",
+  "friends_arrival.time": "15:00",
+  "photo.title": "Společné focení",
+  "photo.time": "15:30",
+  "first_dance.title": "První novomanželský tanec",
+  "first_dance.time": "17:00",
+  "banquet.title": "Začátek rautu",
+  "banquet.time": "17:30",
+  "bouquet_toss.title": "Hod kyticí",
+  "bouquet_toss.time": "19:30",
+  "sparkler_dance.title": "Tanec s prskavkami",
+  "sparkler_dance.time": "21:00"
 }
